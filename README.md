@@ -12,7 +12,7 @@ STACK OF TECHNOLOGIES
  Database:       PostgreSQL
  Frontend:       JSP
 
-Use of application:
+USE OF APPLICATION:
 
 1 - Using Frontend
 Application give access to its functionality after user was logged in successfully.
