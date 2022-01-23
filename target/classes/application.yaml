@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    password: "postgres"
+    url: "jdbc:postgresql://localhost:5432/internet_shop_base"
+    username: "postgres"
+
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
+    # flyway:
+    #  user: ${DB_USERNAME}
+    #  password: ${DB_PASSWORD}
+    # url:  ${DB_URL}
+  jpa:
+    hibernate:
+      ddl-auto: none
+  sql:
+    init:
+      mode: always
+
+logging:
+  level:
+    org.springframework:  info #trace
+# default-schema: internet_shop_base
+
+#//spring.jpa.hibernate.ddl-auto=none
