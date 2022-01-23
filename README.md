@@ -12,19 +12,22 @@ STACK OF TECHNOLOGIES
  Database:       PostgreSQL
  Frontend:       JSP
 
-Use of application
+Use of application:
 
-1)
+1 - Using Frontend
 Application give access to its functionality after user was logged in successfully.
 
 LOGIN:mad_dog
 PASSWORD:12345
 
-2)Using the API
+After successful Log in user can watch/add/edit information about goods.
+User can log out from the application.
+
+2 - Using the API
 
 An example of request to use the API. 
 http://localhost:8080/customer/goods/filter?limit=10&&minPrice=10000&maxPrice=150000&pageNo=1
 
-
+The goods are filtered by minimum and maximum price.
 
 
